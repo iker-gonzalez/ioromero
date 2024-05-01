@@ -37,5 +37,5 @@ spec:
     app: wils-app
   ports:
     - protocol: TCP
-      port: 8888
+      port: 8080
       targetPort: 8888
