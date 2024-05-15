@@ -1,6 +1,6 @@
 # Continuous Deployment with ArgoCD
 
-This repository contains a simple `deployment.yaml` file for deploying an application. It is being monitored by ArgoCD from another repository, [inception-of-things]([https://github.com/iker-gonzalez/inception-of-things](https://github.com/iker-gonzalez/inception-of-things/blob/main/p3/confs/argo-app.yaml). Any change made to the Docker image version in `ioromero` will automatically trigger an update to the exposed application in `inception-of-things` through ArgoCD.
+This repository contains a simple `deployment.yaml` file for deploying an application. It is being monitored by ArgoCD from another repository, [inception-of-things](https://github.com/iker-gonzalez/inception-of-things/blob/main/p3/confs/argo-app.yaml). Any change made to the Docker image version in `ioromero` will automatically trigger an update to the exposed application in `inception-of-things` through ArgoCD.
 
 ## Deployment
 
